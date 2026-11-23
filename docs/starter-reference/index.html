@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#c9161d">
+  <meta name="description" content="LEONE — Tech for all, affordable always. Shop laptops, phones, accessories and gaming gear in Computer Village, Ikeja, Lagos.">
+  <meta property="og:title" content="LEONE | Tech for all, affordable always">
+  <meta property="og:description" content="Buy, sell and swap gadgets with LEONE.">
+  <meta property="og:image" content="assets/leone-promo-banner.png">
+  <title>LEONE — Tech for all, affordable always</title>
+  <link rel="icon" href="assets/leone-favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">BUY • SELL • SWAP <span>—</span> Gadget deals, made easy in Computer Village, Ikeja.</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="LEONE home"><img src="assets/leone-official-logo.jpg" alt="Official LEONE ADEX logo"></a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#home">Home</a><a href="#shop">Shop</a><a href="#services">Buy, Sell & Swap</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn cart-open" aria-label="Open shopping cart">Bag <span id="cartCount">0</span></button>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> YOUR GADGET PLUG IN LAGOS</p>
+        <h1>Good tech.<br><em>Better deals.</em></h1>
+        <p class="hero-sub">Phones, laptops, accessories and gaming essentials — carefully selected and priced with you in mind.</p>
+        <div class="hero-buttons"><a class="btn btn-gold" href="#shop">Explore products <b>↗</b></a><a class="text-link" href="https://wa.me/2348089750406" target="_blank" rel="noopener">Chat with us <b>→</b></a></div>
+        <div class="hero-trust"><span>✓ Buy with confidence</span><span>✓ Friendly support</span><span>✓ Buy • Sell • Swap</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-glow"></div>
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="device device-laptop"><div class="laptop-screen"><div class="screen-glow">L</div></div><div class="laptop-base"></div></div>
+        <div class="device device-phone"><div class="phone-camera"></div><div class="phone-screen"><span>LEONE</span><small>TECH FOR ALL</small></div></div>
+        <div class="device device-watch"><div class="watch-face">09:41</div></div>
+        <div class="device device-earbuds"><div></div><div></div><span></span></div>
+        <div class="hero-sticker">SMART<br>CHOICES<br><b>START HERE</b></div>
+        <div class="hero-caption">TECH THAT<br><strong>WORKS FOR YOU.</strong></div>
+      </div>
+    </section>
+
+    <section class="benefit-strip">
+      <div><span class="benefit-icon">◇</span><span><b>Great-value deals</b><small>Smart prices on everyday tech</small></span></div>
+      <div><span class="benefit-icon">✓</span><span><b>Helpful service</b><small>Real people, ready to assist</small></span></div>
+      <div><span class="benefit-icon">↗</span><span><b>Buy, sell & swap</b><small>Upgrade your gadgets with ease</small></span></div>
+    </section>
+
+    <section class="shop-section section-pad" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE LEONE COLLECTION</p><h2>Find your next <em>favourite.</em></h2><p class="muted">Explore our featured gadgets and everyday essentials.</p></div>
+        <a class="text-link" href="#contact">Need a recommendation? <b>→</b></a>
+      </div>
+      <div class="shop-tools">
+        <div class="category-tabs" id="categoryTabs">
+          <button class="active" data-category="All">All products</button><button data-category="Phones">Phones</button><button data-category="Laptops">Laptops</button><button data-category="Accessories">Accessories</button><button data-category="Gaming">Gaming</button>
+        </div>
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search gadgets..." aria-label="Search products"></label>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="demo-note">Product names and prices shown are sample catalogue content. Confirm current availability and pricing with LEONE on WhatsApp.</p>
+    </section>
+
+    <section class="trade-section" id="services">
+      <div class="trade-copy"><p class="eyebrow">MAKE YOUR NEXT MOVE</p><h2>Ready for an <em>upgrade?</em></h2><p>Give your old gadget a new chapter. Ask us about buying, selling or swapping your device.</p><a class="btn btn-light" href="https://wa.me/2348089750406?text=Hello%20LEONE%2C%20I%27m%20interested%20in%20your%20buy%2C%20sell%20or%20swap%20service." target="_blank" rel="noopener">Discuss a trade <b>↗</b></a></div>
+      <div class="trade-art"><div class="trade-ring"></div><div class="trade-phone">↔</div><div class="trade-tag">TRADE<br><b>SMARTER</b></div></div>
+    </section>
+
+    <section class="about-section section-pad" id="about">
+      <div class="about-mark">L<span>.</span></div>
+      <div><p class="eyebrow">THE LEONE PROMISE</p><h2>Tech for all,<br><em>affordable always.</em></h2><p class="muted">LEONE is your gadget destination for laptops, phones, accessories and gaming products. We believe getting the technology you need should feel straightforward, accessible and worthwhile.</p></div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div><p class="eyebrow">LET'S TALK TECH</p><h2>We’re one message <em>away.</em></h2><p class="muted">Ask about a product, check availability or get help choosing the right gadget.</p></div>
+      <div class="contact-card">
+        <a href="https://wa.me/2348089750406" target="_blank" rel="noopener"><span>WhatsApp / Call</span><b>08089750406 ↗</b></a>
+        <a href="mailto:adexfax8@gmail.com"><span>Email</span><b>adexfax8@gmail.com ↗</b></a>
+        <div><span>Visit our store</span><b>13A, Otigba Street, Computer Village,<br>Ikeja, Lagos, Nigeria</b></div>
+        <div class="social-row"><a href="https://www.instagram.com/Leoneadex_communication_001/" target="_blank" rel="noopener">Instagram ↗</a><a href="https://www.tiktok.com/@Leoneadex_communication_001" target="_blank" rel="noopener">TikTok ↗</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><a href="#home" class="footer-brand">LEONE<span> ADEX</span></a><p>Tech for all, affordable always.</p><small>© <span id="year"></span> LEONE. All rights reserved.</small></footer>
+
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping cart" aria-hidden="true">
+    <div class="cart-head"><div><p class="eyebrow">YOUR SELECTION</p><h2>Your bag <span id="drawerCount">(0)</span></h2></div><button id="cartClose" class="close-btn" aria-label="Close cart">×</button></div>
+    <div class="cart-items" id="cartItems"><div class="empty-cart">Your bag is waiting for something good.</div></div>
+    <div class="cart-foot"><div class="cart-total"><span>Estimated total</span><b id="cartTotal">₦0</b></div><p>Availability and final pricing are confirmed on WhatsApp.</p><button class="btn btn-red checkout-btn" id="checkoutBtn">Order on WhatsApp <b>↗</b></button></div>
+  </aside>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
