@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-red: #c9161d;
+  --color-brand-black: #111012;
+  --color-brand-gold: #d7a83e;
+  --color-brand-cream: #f7f5f1;
+  --font-sans: "DM Sans Variable", system-ui, sans-serif;
+  --font-display: "Manrope Variable", system-ui, sans-serif;
+}
+
+body { background: var(--color-brand-cream); color: var(--color-brand-black); }
+
+.font-display { font-weight: 800; }
